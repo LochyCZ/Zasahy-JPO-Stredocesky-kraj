@@ -1,12 +1,15 @@
 {
   "domain": "pkr_zasahy",
   "name": "Zásahy JPO (Středočeský kraj)",
-  "codeowners": [],
+  "codeowners": [
+    "@TVUJ-UCET"
+  ],
   "config_flow": true,
   "dependencies": [],
+  "documentation": "https://github.com/TVUJ-UCET/ha-pkr-zasahy",
   "integration_type": "service",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/TVUJ-UCET/ha-pkr-zasahy/issues",
   "requirements": [],
   "version": "1.0.0"
-  "documentation": "https://github.com/LochyCZ/Zasahy-JPO-Stredocesky-kraj",
 }
