@@ -2,7 +2,7 @@
 
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2024.12%2B-03A9F4.svg)](https://www.home-assistant.io/)
-[![Version](https://img.shields.io/github/v/release/TVUJ-UCET/ha-pkr-zasahy)](https://github.com/TVUJ-UCET/ha-pkr-zasahy/releases)
+[![Version](https://img.shields.io/github/v/release/LochyCZ/Zasahy-JPO-Stredocesky-kraj)](https://github.com/LochyCZ/Zasahy-JPO-Stredocesky-kraj/releases)
 
 Integrace pro Home Assistant, která sleduje **výjezdy hasičů ve Středočeském kraji**.
 Data bere ze stránky [Zásahy jednotek požární ochrany](https://pkr.kr-stredocesky.cz/pkr/zasahy-jpo/)
@@ -27,14 +27,14 @@ na které můžeš navázat notifikace nebo kartu v dashboardu.
 
 ### HACS (doporučeno)
 
-[![Otevřít v HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=TVUJ-UCET&repository=ha-pkr-zasahy&category=integration)
+[![Otevřít v HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=LochyCZ&repository=Zasahy-JPO-Stredocesky-kraj&category=integration)
 
-Nebo ručně: **HACS → ⋮ → Custom repositories**, vlož `https://github.com/TVUJ-UCET/ha-pkr-zasahy`
+Nebo ručně: **HACS → ⋮ → Custom repositories**, vlož `https://github.com/LochyCZ/Zasahy-JPO-Stredocesky-kraj`
 a jako typ zvol **Integration**. Pak integraci najdi v HACS, nainstaluj ji a restartuj Home Assistant.
 
 ### Ručně
 
-1. Stáhni si poslední [release](https://github.com/TVUJ-UCET/ha-pkr-zasahy/releases).
+1. Stáhni si poslední [release](https://github.com/LochyCZ/Zasahy-JPO-Stredocesky-kraj/releases).
 2. Složku `custom_components/pkr_zasahy` zkopíruj do `/config/custom_components/`.
 3. Restartuj Home Assistant.
 
@@ -174,7 +174,7 @@ novější čas, vyšle jako `pkr_zasahy_aktualizace_zasahu`.
 - **Stránka ukazuje zhruba poslední týden**, starší zásahy integrace nezná.
 - **Integrace závisí na struktuře webu.** Když se HTML změní, senzory přejdou do stavu
   *nedostupné* a v logu bude „Stránka má neočekávanou strukturu“. V tom případě
-  [založ issue](https://github.com/TVUJ-UCET/ha-pkr-zasahy/issues).
+  [založ issue](https://github.com/LochyCZ/Zasahy-JPO-Stredocesky-kraj/issues).
 - **Neptej se moc často.** Web automatické stahování nevítá. Kratší interval než
   5 minut integrace nepovolí a výchozích 10 minut na notifikace bohatě stačí.
 
