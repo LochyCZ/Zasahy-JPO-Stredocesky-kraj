@@ -2,7 +2,7 @@
   "domain": "pkr_zasahy",
   "name": "Zásahy JPO (Středočeský kraj)",
   "codeowners": [
-    "@TVUJ-UCET"
+    "@LochyCZ"
   ],
   "config_flow": true,
   "dependencies": [],
