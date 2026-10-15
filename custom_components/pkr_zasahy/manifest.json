@@ -1,0 +1,12 @@
+{
+  "domain": "pkr_zasahy",
+  "name": "Zásahy JPO (Středočeský kraj)",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "1.0.0"
+  "documentation": "https://github.com/LochyCZ/Zasahy-JPO-Stredocesky-kraj",
+}
