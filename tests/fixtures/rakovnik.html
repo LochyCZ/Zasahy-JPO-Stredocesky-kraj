@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+
+<html lang="cs" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>Zásahy jednotek požární ochrany | Portál krizového řízení</title>
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="/static/CACHE9033/css/output.d9d5e5d927fb.css" type="text/css">
+  <script src="/static/admin/js/classic_responsive_design/resp_breakpoints.js?v=000bca735" defer></script>
+  
+  
+      <script src="/static/admin/js/admin/FooterPositioning.js?v=000bca735" defer></script>
+  
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+
+<link rel="stylesheet" type="text/css" href="/static/css/footer.css?v=000bca735" />
+<style type="text/css">
+.narrow-layout {width: 1000px;}
+</style>
+
+  
+  
+    
+    <script src="/pkr/jsi18n/" defer></script>
+  
+
+  
+    
+  
+
+  <link rel="stylesheet" type="text/css" href="/static/common/css/auto_update_change_list.css?v=000bca735" />
+
+<link rel="stylesheet" type="text/css" href="/static/hzs/css/hzs_udalost_clist.css?v=000bca735" />
+
+  
+  
+  <script>window.__admin_media_prefix__ = "/static/admin/";</script>
+  <script>window.__admin_root_path__ = "/pkr/admin/";</script>
+  <script>window.__admin_lang__ = "cs";</script>
+  
+  
+
+
+
+
+ 
+    
+<script src="/static/CACHE9031/js/output.1c23885ea0ab.js"></script>
+<script src="/static/CACHE9031/js/output.e52db5bc644e.js" defer></script>
+
+  
+
+
+    
+
+
+  
+  
+  <style type="text/css">/* VIRTUAL PORTAL STCK */
+
+/* Variable declarations
+ * 
+ * Portal rules
+ * 1. Header
+ *   1.1. Top bar
+ *     1.1.1. User tools
+ *       1.1.1.1. Horizontal user tools (wide)
+ *       1.1.1.2. Vertical user tools (compact)
+ *   1.2. Middle bar
+ *     1.2.1. Branding
+ *     1.2.2. Navigation menu
+ *       1.2.2.1. Horizontal navigation menu (wide)
+ *       1.2.2.2. Vertical navigation menu (compact)
+ * 2. Footer
+ */
+
+/* Variable declarations */
+
+:root {
+    /* colors z colorize */
+    --portal_color_white: #ffffff; /* COLOR_BILA */
+    --portal_color_red_light: #e31f27; /* COLOR_CERVENA_9 ? */
+    --portal_color_red: #bd0000; /* COLOR_CERVENA_1 */
+    --portal_color_blue: #184195; /* COLOR_MODRA_18 ? */
+    --portal_color_blue_dark: #14367c; /* COLOR_MODRA_19 ? */
+    --portal_color_grey_lightest: #fafafa;
+    --portal_color_grey_lighter: #e9e9e9; /* COLOR_SEDA_17 */
+    --portal_color_grey_light: #bbbbbb; /* COLOR_SEDA_19 ? */
+    --portal_color_grey: #a8a8a8; /* COLOR_SEDA_20 ? */
+    --portal_color_grey_dark: #686868; /* COLOR_SEDA_21 ? */
+    --portal_color_black: #3b3b3b; /* COLOR_CERNA_6 ? */
+    --portal_color_black_dark: #333333; /* COLOR_CERNA_7 ? */
+
+    /* filters z colorize */
+    --portal_filter_white: invert(1);
+    --portal_filter_grey: invert(83%) sepia(0%) saturate(12%) hue-rotate(104deg) brightness(93%) contrast(86%);
+
+    /* konfigurace variables */
+    --portal_max_width: 1200px;
+
+    --social_link_icon_filter: none;
+
+    --header_border_bottom: 1px solid var(--portal_color_white);
+
+    --bg_box_fg_color: var(--portal_color_white);
+    --bg_box_bg_color: var(--portal_color_blue);
+
+    --top_bar_close_position: absolute;
+    --top_bar_close_top: 0px;
+    --top_bar_close_right: auto;
+    --top_bar_close_bottom: auto;
+    --top_bar_close_left: 0px;
+    --top_bar_close_margin: 0px;
+    --top_bar_close_padding: 5px;
+    --top_bar_close_border: none;
+    --top_bar_close_border_radius: 0;
+    --top_bar_close_font_size: 14px;
+    --top_bar_close_fg_color: var(--portal_color_white);
+    --top_bar_close_bg_color: var(--portal_color_blue);
+    --top_bar_close_hover_fg_color: var(--portal_color_white);
+    --top_bar_close_hover_bg_color: var(--portal_color_blue);
+
+    --top_bar_height: 50px;
+
+    --top_bar_fg_color: var(--portal_color_white);
+    --top_bar_bg_color: var(--portal_color_blue);
+
+    --portal_search_border_color: var(--portal_color_white);
+
+    --portal_search_font_size: 16px;
+
+    --portal_search_fg_color: var(--portal_color_black_dark);
+    --portal_search_bg_color: var(--portal_color_white);
+
+    --portal_search_button_bg_color: var(--portal_color_blue);
+    --portal_search_button_hover_bg_color: var(--portal_color_blue_dark);
+    --portal_search_button_icon_filter: invert(1);
+
+    --wide_user_tools_bg_color: var(--portal_color_blue);
+    --compact_user_tools_bg_color: var(--portal_color_blue);
+
+    --middle_bar_display: block;
+    --middle_bar_justify_content: normal;
+    --middle_bar_max_width: none;
+    --middle_bar_margin: 0;
+    --middle_bar_fg_color: var(--portal_color_white);
+    --middle_bar_bg_color: var(--portal_color_blue);
+
+    --branding_max_width: var(--portal_max_width);
+    --branding_min_height: 130px;
+    --branding_margin: 0 auto;
+    --branding_padding: 10px 40px;
+
+    --header_logo_width_xs: 220px;
+    --header_logo_width_sm: 260px;
+    --header_logo_width_lg: 300px;
+
+    --header_logo_max_width: none;
+    --header_logo_height: auto;
+    --header_logo_max_height: none;
+
+    --site_name_font_size: 39px;
+    --site_name_font_size_lg: 32px;
+    --site_name_font_size_md: 25px;
+    --site_name_font_weight: bold;
+    --site_name_fg_color: var(--portal_color_white);
+
+    --menu_wrapper_display: block;
+    --menu_wrapper_align_items: normal;
+
+    --compact_menu_wrapper_height: 51px;
+
+    --menu_link_img_width: 20px;
+    --menu_link_img_height: 20px;
+    --menu_link_img_filter: var(--portal_filter_white);
+    --menu_hover_link_img_filter: var(--portal_filter_grey);
+
+    --compact_menu_toggler_top_xs: 15px !important;
+    --compact_menu_toggler_top_md: 12px !important;
+
+    --compact_menu_toggler_line_bg_color: var(--portal_color_white);
+    --no_header_compact_menu_toggler_line_bg_color: var(--portal_color_white);
+
+    --wide_menu_first_level_font_size: 14px;
+    --wide_menu_other_level_font_size: 14px;
+    --wide_menu_first_level_line_height: normal;
+    --wide_menu_other_level_line_height: normal;    
+    --compact_menu_first_level_font_size: 16px;
+    --compact_menu_other_level_font_size: 16px;
+    --compact_menu_first_level_line_height: normal;
+    --compact_menu_other_level_line_height: normal;
+
+    --menu_active_text_decoration: underline;
+    --menu_hover_text_decoration: none;
+
+    --menu_fg_color: var(--portal_color_white);
+    --menu_active_fg_color: var(--portal_color_white);
+    --menu_hover_fg_color: var(--portal_color_grey_light);
+
+    --menu_bg_color: var(--portal_color_blue);
+    --menu_active_bg_color: var(--portal_color_blue);
+    --menu_hover_bg_color: var(--portal_color_blue);
+
+    --bottom_bar_position: sticky;
+    --bottom_bar_min_height: 0px;
+    --bottom_bar_font_size: 16px;
+    --bottom_bar_line_height: normal;
+    --bottom_bar_fg_color: var(--portal_color_white);
+    --bottom_bar_bg_color: var(--portal_color_black);
+
+    --warning_messages_padding: 10px;
+    --warning_messages_font_size: 16px;
+    --warning_messages_line_height: normal;
+    --warning_messages_fg_color: var(--portal_color_white);
+    --warning_messages_bg_color: var(--portal_color_red);
+
+    --warning_messages_link_text_decoration: underline;
+    --warning_messages_link_hover_text_decoration: none;
+
+    --breadcrumbs_font_size: 16px;
+    --breadcrumbs_line_height: normal;
+    --breadcrumbs_fg_color: var(--portal_color_white);
+    --breadcrumbs_bg_color: var(--portal_color_black);
+
+    --breadcrumbs_link_text_decoration: underline;
+    --breadcrumbs_link_hover_text_decoration: none;
+
+    --footer_fg_font_size: 14px;
+    --footer_fg_line_height: 28px;
+    --footer_fg_color: var(--portal_color_white);
+    --footer_bg_color: var(--portal_color_black);
+
+    --footer_copyright_fg_font_size: 14px;
+    --footer_copyright_fg_line_height: 28px;
+    --footer_copyright_fg_color: var(--portal_color_grey);
+    --footer_copyright_bg_color: var(--portal_color_black);
+
+    --main_margin_top: 24px;
+
+    --toggle_nav_sidebar_border: none;
+
+    --nav_sidebar_border: none;
+    --nav_sidebar_border_radius: 10px;
+
+    --nav_sidebar_item_margin: 0;
+    --nav_sidebar_item_padding: 5px 15px;
+    --nav_sidebar_item_border: none;
+    --nav_sidebar_item_border_radius: 0;
+    --nav_sidebar_item_font_size: 16px;
+    --nav_sidebar_item_font_weight: normal;
+    --nav_sidebar_item_line_height: 1.5;
+    --nav_sidebar_item_fg_color: #000;
+    --nav_sidebar_item_row1_bg_color: var(--portal_color_grey_lightest);
+    --nav_sidebar_item_row2_bg_color: var(--portal_color_grey_lighter);
+    --nav_sidebar_item_row1_hover_bg_color: var(--portal_color_grey_lightest);
+    --nav_sidebar_item_row2_hover_bg_color: var(--portal_color_grey_lighter);
+    --nav_sidebar_item_hover_text_decoration: underline;
+    --nav_sidebar_item_heading_font_weight: 600;
+    --nav_sidebar_item_heading_fg_color: var(--portal_color_white);
+    --nav_sidebar_item_heading_bg_color: var(--portal_color_blue);
+    --nav_sidebar_item_heading_hover_bg_color: var(--portal_color_blue);
+
+    --content_margin_top: 24px;
+
+    --main_heading_padding: 12px;
+    --main_heading_border: 1px solid rgba(0, 0, 0, 0.175);
+    --main_heading_border_radius: 5px;
+    --main_heading_font_family: var(--body_font);
+    --main_heading_font_size: 24px;
+    --main_heading_font_weight: bold;
+    --main_heading_fg_color: #666;
+    --main_heading_bg_color: #eef1f3;
+
+    --object_tools_top: -58px !important;
+}
+
+/* Portal rules */
+
+/* 1. Header */
+
+/* 1.1. Top bar */
+
+/* 1.1.1. User tools */
+
+.portal.classic_responsive_design div#header div#top-bar div#top-bar-inner div#user-tools a.system_debug_toggle img {
+    filter: invert(1);
+}
+
+/* 1.1.1.1. Horizontal user tools (wide) */
+
+/* 1.1.1.2. Vertical user tools (compact) */
+
+.portal.classic_responsive_design div#header.compact_user_tools div#top-bar div#top-bar-inner div#user_tools_toggler img.user_icon {
+    filter: invert(1);
+}
+
+/* 1.2. Middle bar */
+
+/* 1.2.1. Branding */
+
+/* 1.2.2. Navigation menu */
+
+/* 1.2.2.1. Horizontal navigation menu (wide) */
+
+.portal.classic_responsive_design div#header:not(.compact_menu) div#middle-bar ul#menu {
+    gap: 15px;
+}
+
+.portal.classic_responsive_design div#header:not(.compact_menu) div#middle-bar ul#menu > li {
+    border-bottom-width: 0px; /* sirka ruznobarevne border-bottom */
+}
+
+.portal.classic_responsive_design div#header:not(.compact_menu) div#middle-bar ul#menu > li > a {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.portal.classic_responsive_design div#header:not(.compact_menu) div#middle-bar ul#menu > li img.ul_toggler {
+    filter: invert(1);
+}
+
+.portal.classic_responsive_design div#header:not(.compact_menu) div#middle-bar ul#menu > li > ul {
+    top: calc(100% + 0px); /* 0px je hodnota border-bottom-width */
+    border-bottom-width: 0px; /* sirka ruznobarevne border-bottom */
+}
+
+.portal.classic_responsive_design div#header:not(.compact_menu) div#middle-bar ul#menu > li > ul li a {
+    font-weight: bold;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+/* 1.2.2.2. Vertical navigation menu (compact) */
+
+.portal.classic_responsive_design div#container.left_menu_toggler div#header.compact_menu div#middle-bar div#menu_wrapper ul#menu > li {
+    border-right-width: 0px;
+}
+
+.portal.classic_responsive_design div#container.right_menu_toggler div#header.compact_menu div#middle-bar div#menu_wrapper ul#menu > li {
+    border-left-width: 0px;
+}
+
+.portal.classic_responsive_design div#header.compact_menu div#middle-bar ul#menu li a {
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.portal.classic_responsive_design div#header.compact_menu div#middle-bar ul#menu li img.ul_toggler {
+    filter: invert(1);
+}
+
+/* 2. Footer */
+
+/* 3. Custom */
+
+.portal.classic_responsive_design div.social_links a.youtube_link.social_link img,
+.portal.classic_responsive_design div.social_links a.instagram_link.social_link img,
+.portal.classic_responsive_design div.social_links a.rss_link.social_link img {
+    filter: invert(1);
+}
+
+.portal.classic_responsive_design div#header div#top-bar div#top-bar-inner div#user-tools div#language-switcher {
+    display: none;
+}
+
+.portal.classic_responsive_design div#footer div#footer-wrapper {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.portal.classic_responsive_design div#footer div#footer-wrapper h2.footer_main_col_title {
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--portal_color_grey);
+}
+
+.portal.classic_responsive_design div#footer div#footer-wrapper a.footer_main_col_ul_link {
+    text-decoration: none;
+}
+
+.portal.classic_responsive_design div#footer div#footer-wrapper div#footer_main_col_contacts a.footer_main_col_ul_link.email {
+    text-decoration: underline;
+}
+
+.portal.classic_responsive_design div#footer div#footer-wrapper div#footer_main_col_contacts a.footer_main_col_ul_link.email:hover {
+    text-decoration: none;
+    color: var(--portal_color_red_light);
+}
+
+.portal.classic_responsive_design div#footer div#footer-wrapper hr#footer_main_bottom_delimiter {
+    margin-top: 48px;
+    color: var(--portal_color_grey_dark);
+    background-color: var(--portal_color_grey_dark);
+}
+
+.portal.classic_responsive_design div#footer div#footer-wrapper div.footer_bottom_col a.footer_bottom_col_cookies_privacy_link {
+    color: var(--footer_copyright_fg_color);
+}
+
+.portal.classic_responsive_design div#footer div#footer-wrapper div.footer_bottom_col a.footer_bottom_col_cookies_privacy_link:hover {
+    text-decoration: none;
+}
+
+#chatbot_toggler {
+    background: var(--portal_color_blue);
+}
+
+/* temp */
+
+.portal.classic_responsive_design div#header div#top-bar div#top-bar-inner {
+    justify-content: right;
+    padding: 0 10px;
+}
+
+.portal.classic_responsive_design div#header div#top-bar div#top-bar-inner div#portal-search form#portal-search-form div#portal-search-group {
+    width: auto;
+    min-width: 0;
+    max-width: none;
+}
+
+.portal.classic_responsive_design div#header div#top-bar div#top-bar-inner div#portal-search form#portal-search-form div#portal-search-group input#portal-search-field {
+    max-width: 300px;
+}
+
+.portal.classic_responsive_design div#header:not(.compact_user_tools) div#top-bar div#top-bar-inner div#portal-search form#portal-search-form div#portal-search-group input#portal-search-field {
+    width: 20vw;
+}
+
+.portal.classic_responsive_design div#header.compact_user_tools div#top-bar div#top-bar-inner div#portal-search form#portal-search-form div#portal-search-group input#portal-search-field {
+    width: 25vw;
+}
+
+.sm.portal.classic_responsive_design div.social_links {
+    gap: 8px;
+}
+.sm.portal.classic_responsive_design div.social_links a.social_link {
+    width: 25px;
+}
+.sm.portal.classic_responsive_design div.social_links a.social_link img {
+    width: 25px;
+}
+
+.xs.portal.classic_responsive_design div.social_links {
+    gap: 6px;
+}
+.xs.portal.classic_responsive_design div.social_links a.social_link {
+    width: 20px;
+}
+.xs.portal.classic_responsive_design div.social_links a.social_link img {
+    width: 20px;
+}
+
+:is(.xs, .sm).portal.classic_responsive_design div#header div#middle-bar div#branding {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.narrow-layout {
+    width: auto !important;
+}</style>
+  
+  
+  
+
+</head>
+
+<body class="is_bootstrap classic_responsive_design portal app-hzs model-hzsudalost change-list">
+<div id="container" class="sticky_breadcrumbs right_menu_toggler"> 
+  
+    
+    
+    <div id="header">
+      
+      <div id="bg-box"> 
+        
+
+          
+  <div id="top-bar-close">Skrýt menu</div>
+  
+  <script>
+    if (window.jQuery) {
+      (function($) {
+        $(document).ready(function() {
+          $('#top-bar-close').click(function() {
+            $('#bg-box').hide();
+            $('#top-bar').hide();
+            $('#middle-bar').hide();
+            var ot = $('ul.object-tools');
+            ot.addClass('top-bar-closed');
+            $('#content').find('h1').eq(0).addClass('top-bar-closed');
+            $('#header').addClass('top-bar-closed');
+            $(window).trigger('force_resize');
+            return false;
+          });
+        });
+      })(jQuery);
+    }
+  </script>
+
+          <div id="top-bar"> 
+           <div id="top-bar-inner" class="right_user_tools_toggler"> 
+            
+              
+                <div id="portal-search">
+                  <form id="portal-search-form" method="get" action="/pkr/" novalidate>
+                    <div id="portal-search-group">
+                      <input id="portal-search-field" type="text" name="pq" maxlength="64" placeholder="Hledat">
+                      <button id="portal-search-button" type="submit">
+                        <img class="icon-search" src="/static/admin/img/search.svg?v=000bca735" alt="Hledat">
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              
+            
+            <div id="header_social_links" class="social_links">
+  <a class="facebook_link social_link" href="https://www.facebook.com/StredoceskyK" target="_blank" aria-label="Facebook kraje">
+    <img src="/media/portal/social_link/facebook/Facebook_Logo_Secondary.png" alt="Facebook kraje">
+  </a>
+  <a class="x_link social_link" href="https://x.com/stredoceskyk" target="_blank" aria-label="X kraje">
+    <img src="/media/portal/social_link/x/logo-white.png" alt="X kraje">
+  </a>
+  <a class="youtube_link social_link" href="https://youtube.com/channel/UCCROMQNDO9-Bn8nQYSw8Xww" target="_blank" aria-label="YouTube kraje">
+    <img src="/media/portal/social_link/youtube/youtube.svg" alt="YouTube kraje">
+  </a>
+  <a class="instagram_link social_link" href="https://www.instagram.com/stredocesky_kraj_official/" target="_blank" aria-label="Instagram kraje">
+    <img src="/media/portal/social_link/instagram/Instagram_Glyph_Black.svg" alt="Instagram kraje">
+  </a>
+  <a class="rss_link social_link" href="https://pkr.kr-stredocesky.cz/pkr/aktuality/feed.xml" target="_blank" aria-label="RSS kraje">
+    <img src="/media/portal/social_link/rss/rss.svg" alt="RSS kraje">
+  </a>
+</div>
+            
+                <div id="user-tools">
+                  
+                    <a href="/syposng/admin/">Přihlášení</a>
+                  
+                  
+                  
+ 
+
+                </div>
+             
+            
+           </div> 
+          </div> 
+        
+
+        
+          <div id="middle-bar"> 
+            <div id="branding">
+              
+                <div id="header-logo">
+  
+  <a href="/pkr/">
+    <img id="header-logo-img" src="/media/site_app/2443afaf-a32a-4244-9297-17ee27c2bd0f_logo.svg" aria-label="Přejít na hlavní stránku">
+  </a>
+</div>
+                <div id="site-name">
+  <a href="/pkr/" aria-label="Přejít na hlavní stránku"><h1>
+    <span id="site_name_text">Portál krizového řízení</span>
+    <span id="short_site_name_text" style="display: none">Portál krizového řízení</span>
+  </h1></a>
+</div>
+              
+            </div>
+            
+  
+   <div id="menu_wrapper">
+      <script src="/static/admin/js/classic_responsive_design/resp_menu.js?v=000bca735"></script>
+      <div id="compact_menu_toggler">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <img id="compact_menu_close" class="btn_i" aria-label="Zavřít navigační menu" title="zavřít" src="/static/admin/img/cancel.svg?v=000bca735" style="display: none;">
+     
+<ul id="menu" style="visibility: hidden;">
+<li class="level_0" style=""><a href="/pkr/" style="">Domů</a></li><li class="level_0" style=""><a class="empty-page" style="">Kontakty</a><img class="ul_toggler_right ul_toggler btn_i" src="/static/admin/img/chevron-right.svg?v=000bca735"><img class="ul_toggler_down ul_toggler btn_i" src="/static/admin/img/chevron-down.svg?v=000bca735"><img class="ul_toggler_up ul_toggler btn_i" src="/static/admin/img/chevron-up.svg?v=000bca735"><ul class="narrow-layout"><li class="level_1" style=""><a href="/pkr/bezpecnostni-rada-kraje/" style="">Bezpečnostní rada kraje</a></li><li class="level_1" style=""><a href="/pkr/krajska-povodnova-komise/" style="">Krajská povodňová komise</a></li><li class="level_1" style=""><a href="/pkr/krizovy-stab-kraje/" style="">Krizový štáb kraje</a><img class="ul_toggler_right ul_toggler btn_i" src="/static/admin/img/chevron-right.svg?v=000bca735"><img class="ul_toggler_down ul_toggler btn_i" src="/static/admin/img/chevron-down.svg?v=000bca735"><img class="ul_toggler_up ul_toggler btn_i" src="/static/admin/img/chevron-up.svg?v=000bca735"><ul class="narrow-layout"><li class="level_2" style=""><a href="/pkr/pracovni-skupina-ksk/" style="">Stálá pracovní skupina KŠK</a></li></ul></li><li class="level_1" style=""><a href="/pkr/tajemnici-bezpecnostnich-rad-orp/" style="">Tajemníci bezpečnostních rad ORP</a></li><li class="level_1 redirect" style=""><a href="/syposng/admin/kontakty/strukturauradu/" target="_blank" style="">Systém komunikace obcí<img class="menu-redirect-icon svg_model_icon" src="/static/admin/img/icon_external_link.svg?v=000bca735" alt="externí přesměrování"></a></li><li class="level_1" style=""><a href="/pkr/dulezite-odkazy-kontakty/" style="">Další složky krizového řízení</a></li></ul></li><li class="level_0" style=""><a class="empty-page" style="">Aktuální situace</a><img class="ul_toggler_right ul_toggler btn_i" src="/static/admin/img/chevron-right.svg?v=000bca735"><img class="ul_toggler_down ul_toggler btn_i" src="/static/admin/img/chevron-down.svg?v=000bca735"><img class="ul_toggler_up ul_toggler btn_i" src="/static/admin/img/chevron-up.svg?v=000bca735"><ul class="narrow-layout"><li class="level_1" style=""><a href="/pkr/mapa-aktualni-situace/" style="">Mapa aktuální situace</a></li><li class="level_1 active" style=""><a href="/pkr/zasahy-jpo/" style="">Zásahy jednotek požární ochrany</a></li><li class="level_1" style=""><a href="/pkr/mimoradne-udalosti/" style="">Mimořádné události</a></li><li class="level_1" style=""><a href="/pkr/vyhlasene-krizove-stavy/" style="">Vyhlášené krizové stavy</a></li><li class="level_1" style=""><a href="/pkr/vystrahy-chmu/" style="">Výstrahy ČHMÚ</a></li><li class="level_1" style=""><a href="/pkr/hlasne-profily/" style="">Hlásné profily</a></li><li class="level_1" style=""><a href="/pkr/dopravni-udalosti/" style="">Dopravní události</a></li><li class="level_1" style=""><a href="/pkr/kamery/" style="">Kamery</a></li><li class="level_1" style=""><a href="/pkr/dulezite-odkazy/" style="">Důležité odkazy</a></li></ul></li><li class="level_0" style=""><a class="empty-page" style="">Zdroje ohrožení</a><img class="ul_toggler_right ul_toggler btn_i" src="/static/admin/img/chevron-right.svg?v=000bca735"><img class="ul_toggler_down ul_toggler btn_i" src="/static/admin/img/chevron-down.svg?v=000bca735"><img class="ul_toggler_up ul_toggler btn_i" src="/static/admin/img/chevron-up.svg?v=000bca735"><ul class="narrow-layout"><li class="level_1" style=""><a href="/pkr/mapa/" style="">Mapa</a></li><li class="level_1" style=""><a href="/pkr/povodnove-scenare/" style="">Povodňové scénáře</a></li><li class="level_1" style=""><a href="/pkr/objektyzarizeni-nakladajici-s-nebezpecnymi-chemick/" style="">Objekty/zařízení dle 224/2015 Sb.</a></li><li class="level_1" style=""><a href="/pkr/zony-havarijniho-planovani/" style="">Zóny havarijního plánování</a></li><li class="level_1" style=""><a href="/pkr/sesuvy-pudy-a-skal/" style="">Sesuvy půdy a skal</a></li></ul></li><li class="level_0" style=""><a class="empty-page" style="">Dokumenty</a><img class="ul_toggler_right ul_toggler btn_i" src="/static/admin/img/chevron-right.svg?v=000bca735"><img class="ul_toggler_down ul_toggler btn_i" src="/static/admin/img/chevron-down.svg?v=000bca735"><img class="ul_toggler_up ul_toggler btn_i" src="/static/admin/img/chevron-up.svg?v=000bca735"><ul class="narrow-layout"><li class="level_1" style=""><a href="/pkr/karta-opatreni-system-distribuce/" style="">Karta opatření - systém distribuce věcných prostředků a vyžadování věcných zdrojů</a></li><li class="level_1" style=""><a href="/pkr/narizeni-stredoceskeho-kraje-kterym-se-stanovi-podminky-k-zabezpeceni-pozarni-ochrany-v-dobe-zvyseneho-nebezpeci-vzniku-pozaru-c-12025/" style="">Nařízení Středočeského kraje, kterým se stanoví podmínky k zabezpečení požární ochrany v době zvýšeného nebezpečí vzniku požárů (č. 1/2025)</a></li></ul></li><li class="level_0" style=""><a href="/pkr/aktuality/" style="">Aktuality</a></li><li class="level_0" style=""><a class="empty-page" style="">72 hodin - PŘÍRUČKY</a><img class="ul_toggler_right ul_toggler btn_i" src="/static/admin/img/chevron-right.svg?v=000bca735"><img class="ul_toggler_down ul_toggler btn_i" src="/static/admin/img/chevron-down.svg?v=000bca735"><img class="ul_toggler_up ul_toggler btn_i" src="/static/admin/img/chevron-up.svg?v=000bca735"><ul class="narrow-layout"><li class="level_1" style=""><a href="/pkr/72-hodin-prirucky-verejnost/" style="">72 hodin - Příručky /veřejnost/</a></li><li class="level_1" style=""><a href="/pkr/karty-pro-starosty-mimoradne-udalosti-krizove-situace/" style="">Karty pro starosty /mimořádné události - krizové situace/</a></li></ul></li><li class="level_0 redirect" style=""><a href="https://www.zachranny-kruh.cz/" target="_blank" style="">Záchranný kruh<img class="menu-redirect-icon svg_model_icon" src="/static/admin/img/icon_external_link.svg?v=000bca735" alt="externí přesměrování"></a></li>
+</ul>
+
+   </div>
+  
+
+          </div> 
+        
+      </div> 
+      
+      
+        <div id="bottom-bar"> 
+          
+          
+    <div class="breadcrumbs">
+      <a num_backlinks=0 href="/pkr/">Domů</a><span> &rsaquo; </span><span>Aktuální situace</span><span> &rsaquo; </span><span>Zásahy jednotek požární ochrany</span>
+    </div>
+  
+        </div> 
+      
+    </div> 
+    
+   
+
+  <div id="main" class="main">
+    
+    <div class="content">
+      
+        <script>
+          if (window.jQuery) {
+            (function($) {
+              $(document).ready(function($) {
+                $(document).on('click', 'ul.messagelist a.messages-deletelink', function() {
+                  $(this).parent().hide('slow', function() {
+                    $(this).remove();
+                    // jquery.tlpmapi plugin event
+                    $(window).trigger('force_resize');
+                  });
+                });
+              });
+            })(jQuery);
+          }
+        </script>
+        
+        
+      
+
+  
+  
+    <div id="content" class="flex"> <!-- #content -->
+      
+  
+
+      
+<ul id="zasahy_jpo_info_messagelist" class="messagelist">
+  <li>
+    <div id="zasahy_jpo_info">
+      <div>Níže uvedený seznam je vkládán se zpožděním, má orientační charakter.</div>
+      <div>Události jsou filtrovány a zveřejněny tak, jak byly vyhodnoceny v době vzniku události!</div>
+    </div>
+  </li>
+</ul>
+
+ 
+ <h1><span>Zásahy jednotek požární ochrany</span></h1>
+ 
+
+
+      
+      
+ 
+  
+
+   
+   
+
+  <div id="content-main">
+   
+     
+        
+          <div id="object_tools_toggler" class="btn_i btn_primary">
+            <img src="/static/admin/img/tlp/settings.svg?v=000bca735" title="Možnosti" aria-label="Možnosti" />
+          </div>
+        
+        <ul class="object-tools" style="visibility: hidden;">
+	
+	
+	
+	
+	    <li class="icon"><a class="rssview" href="feed.xml" title="RSS kanál">&nbsp;</a></li>
+	
+	
+	
+	
+	
+          
+            <script>
+	        function printChangeList() {
+		    var appendix = (location.href.indexOf('?') != -1 ? "&prt" : "?prt");
+                    appendix += '=' + $('div.actions').length;
+		    var win = window.open(location.href + appendix, "print");
+		    win.focus();
+		    return false;
+		}
+            </script>
+            <li class="icon"><a class="print" onclick="printChangeList();" title="tisknout seznam" rel="nofollow">&nbsp;</a></li>
+          
+	  
+
+
+	  
+	   
+            
+  
+
+
+           
+          
+	
+
+        </ul>
+     
+   
+
+    
+    <div class="changelist module filtered" id="changelist">
+      
+
+<div id="toolbar"><form id="changelist-search" method="get" novalidate>
+<div id="validator"><!-- DIV needed for valid HTML -->
+<span id="input-wrapper"> 
+<label for="searchbar"><img src="/static/admin/img/search.svg?v=000bca735" alt="Hledat" /></label>
+<input type="text" size="40" name="q" value="" id="searchbar" />
+<input type="submit" class="btn_primary btn_l" value="Hledat" />
+</span>
+
+
+    <span class="small quiet">
+    
+      
+        26 výsledků <span class="full_result_count_wrapper">(<a href="?"><span class="full_result_count">Celkem 467</span></a>)</span></span>
+
+
+    
+
+    <input type="hidden" name="r_cast_uzemi__in" value="1192">
+
+</div>
+
+</form></div>
+
+<script>
+  window.addEventListener("pageshow", function(event) {
+    if (typeof window.orientation === "undefined" && window.focus_run === undefined) {
+
+        const navEntries = performance.getEntriesByType("navigation");
+
+        if (navEntries && navEntries.length > 0) {
+            const navType = navEntries[0].type;
+
+            // options:"navigate", "reload", "back_forward", "prerender"
+            if (navType === "back_forward") {
+                return;
+            }
+            var searchbar = document.getElementById("searchbar");
+            if (searchbar) {
+                searchbar.classList.add("focus");
+                searchbar.focus();
+                window.focus_run = true;
+            }
+        }
+    }
+  });
+</script>
+
+
+
+      
+<div class="xfull">
+<ul class="toplinks">
+
+
+<li class="date-back"><a href="?posledni_zmena__year=2026&amp;q=&amp;r_cast_uzemi__in=1192">&lsaquo; 2026</a></li>
+
+
+
+<li> <a href="?posledni_zmena__day=2&amp;posledni_zmena__month=10&amp;posledni_zmena__year=2026&amp;q=&amp;r_cast_uzemi__in=1192">2. říjen</a></li>
+
+<li> <a href="?posledni_zmena__day=3&amp;posledni_zmena__month=10&amp;posledni_zmena__year=2026&amp;q=&amp;r_cast_uzemi__in=1192">3. říjen</a></li>
+
+<li> <a href="?posledni_zmena__day=4&amp;posledni_zmena__month=10&amp;posledni_zmena__year=2026&amp;q=&amp;r_cast_uzemi__in=1192">4. říjen</a></li>
+
+<li> <a href="?posledni_zmena__day=5&amp;posledni_zmena__month=10&amp;posledni_zmena__year=2026&amp;q=&amp;r_cast_uzemi__in=1192">5. říjen</a></li>
+
+<li> <a href="?posledni_zmena__day=6&amp;posledni_zmena__month=10&amp;posledni_zmena__year=2026&amp;q=&amp;r_cast_uzemi__in=1192">6. říjen</a></li>
+
+<li> <a href="?posledni_zmena__day=7&amp;posledni_zmena__month=10&amp;posledni_zmena__year=2026&amp;q=&amp;r_cast_uzemi__in=1192">7. říjen</a></li>
+
+<li> <a href="?posledni_zmena__day=8&amp;posledni_zmena__month=10&amp;posledni_zmena__year=2026&amp;q=&amp;r_cast_uzemi__in=1192">8. říjen</a></li>
+
+<li> <a href="?posledni_zmena__day=9&amp;posledni_zmena__month=10&amp;posledni_zmena__year=2026&amp;q=&amp;r_cast_uzemi__in=1192">9. říjen</a></li>
+
+
+
+</ul><br class="clear" />
+</div>
+
+
+
+      
+        
+          
+<div id="changelist-filter">
+<h2>Filtr</h2>
+  <h3 id="changelist-filter-clear">
+    <a class="btn_l btn_danger" href="?q=">&#10006; Zrušit všechny filtry</a>
+  </h3>
+  
+<h3> Dle: stupeň poplachu </h3>
+<ul>
+
+    <li class="selected">
+    <a href="?q=&amp;r_cast_uzemi__in=1192" rel="nofollow">Vše</a>
+    
+    
+    </li>
+
+    <li>
+    <a href="?q=&amp;r_cast_uzemi__in=1192&amp;stupen_poplachu__exact=1" rel="nofollow" title="I.">I.</a>
+    
+    
+    </li>
+
+    <li>
+    <a href="?q=&amp;r_cast_uzemi__in=1192&amp;stupen_poplachu__exact=2" rel="nofollow" title="II.">II.</a>
+    
+    
+    </li>
+
+    <li>
+    <a href="?q=&amp;r_cast_uzemi__in=1192&amp;stupen_poplachu__exact=3" rel="nofollow" title="III.">III.</a>
+    
+    
+    </li>
+
+    <li>
+    <a href="?q=&amp;r_cast_uzemi__in=1192&amp;stupen_poplachu__exact=Z" rel="nofollow" title="Z - zvláštní">Z - zvláštní</a>
+    
+    
+    </li>
+
+</ul>
+
+<h3> Dle: okres </h3>
+<ul>
+
+    <li>
+    <a class="multi_selection_filter" href="?q=" rel="nofollow">Vše</a><a onclick="return showFilterLookupPopup(this);" id="lookup_id_castuzemi" class="related-lookup" href="filter_None/" rel="nofollow"><img width="14" height="14" alt="Hledat" style="margin-left: 5px" src="/static/admin/img/selector-search.gif?v=000bca735"></a>
+    
+    
+    </li>
+
+    <li class="selected">
+    <a href="?q=&amp;r_cast_uzemi__in=1192" rel="nofollow" title="okres Rakovník">okres Rakovník</a>
+    
+        <a href="#" onclick="return removeFilterChoice(this, '1192')" class="related-lookup selected_choice_remove_link deletelink-inline multiselect-filter-lookup" title="Zrušit výběr">&nbsp;&nbsp;</a>
+    
+    
+    </li>
+
+    <li>
+    <a href="?q=&amp;r_cast_uzemi__in=__TEMPLATE__" rel="nofollow" data-empty-filter="?q="><span class="multi_selection_filter" data-lookup-val="1192" id="template_lookup_id_castuzemi"></span></a>
+    
+    
+    </li>
+
+</ul>
+
+</div>
+
+        
+      
+      
+     
+      <div id="content-filtered">
+     
+     
+
+      
+          
+         <div id="result_list_wrapper">
+          
+          
+
+
+
+<div class="results">
+<table id="result_list">
+
+
+  
+      
+         
+          <thead>
+           
+<tr class="heading">
+
+<th scope="col" class="display_link">
+   
+   <div class="text"><span>Název</span></div>
+   <div class="clear"></div>
+</th>
+<th scope="col">
+   
+   <div class="text"><span>Typ</span></div>
+   <div class="clear"></div>
+</th>
+<th scope="col" class="sortable">
+   
+     
+   
+   <div class="text"><a href="?o=2&amp;q=&amp;r_cast_uzemi__in=1192" rel="nofollow">Stav</a></div>
+   <div class="clear"></div>
+</th>
+<th scope="col">
+   
+   <div class="text"><span>Místo události</span></div>
+   <div class="clear"></div>
+</th>
+<th scope="col" class="sortable center">
+   
+     
+   
+   <div class="text"><a href="?o=4&amp;q=&amp;r_cast_uzemi__in=1192" rel="nofollow">Stupeň poplachu</a></div>
+   <div class="clear"></div>
+</th>
+<th scope="col" class="sortable">
+   
+     
+   
+   <div class="text"><a href="?o=5&amp;q=&amp;r_cast_uzemi__in=1192" rel="nofollow">Poslední aktualizace dat</a></div>
+   <div class="clear"></div>
+</th>
+</tr>
+
+          </thead>
+          <tbody>
+	 
+	 
+          <tr class="row1">
+      
+      <th>únik nebezpečných látek - na komunikaci ropa - Rakovník</th><td><span title="únik nebezpečných látek"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/unik-nebezpecnych-latek.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Rakovník</td><td align="center">I.</td><td>9. října 2026, 17:05</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>technická pomoc - odstranění stromu - Lužná</th><td><span title="technická pomoc"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/technicka-pomoc.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Lužná<br>okres Rakovník</td><td align="center">I.</td><td>9. října 2026, 16:15</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>únik nebezpečných látek - na komunikaci ropa - Kolešov</th><td><span title="únik nebezpečných látek"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/unik-nebezpecnych-latek.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Kolešov<br>okres Rakovník</td><td align="center">I.</td><td>9. října 2026, 14:35</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>dopravní nehoda - uvolnění dálnice - Krupá</th><td><span title="dopravní nehoda"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/dopravni-nehoda.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Krupá<br>okres Rakovník</td><td align="center">I.</td><td>9. října 2026, 12:40</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>únik nebezpečných látek - na komunikaci ropa - Mšec</th><td><span title="únik nebezpečných látek"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/unik-nebezpecnych-latek.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Mšec<br>okres Rakovník</td><td align="center">I.</td><td>9. října 2026, 02:55</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>technická pomoc - odstranění stromu - Hořovičky</th><td><span title="technická pomoc"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/technicka-pomoc.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Hořovičky<br>okres Rakovník</td><td align="center">I.</td><td>8. října 2026, 21:35</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>záchrana osob a zvířat - uzavřené prostory, výtah - Jesenice</th><td><span title="záchrana osob a zvířat"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/zachrana-osob-a-zvirat.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Jesenice<br>okres Rakovník</td><td align="center">I.</td><td>8. října 2026, 10:45</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>záchrana osob a zvířat - z hloubky - Mutějovice</th><td><span title="záchrana osob a zvířat"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/zachrana-osob-a-zvirat.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Mutějovice<br>okres Rakovník</td><td align="center">I.</td><td>7. října 2026, 21:20</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>záchrana osob a zvířat - z výšky - Senomaty</th><td><span title="záchrana osob a zvířat"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/zachrana-osob-a-zvirat.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Senomaty<br>okres Rakovník</td><td align="center">I.</td><td>7. října 2026, 19:00</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>únik nebezpečných látek - do ovzduší - Mutějovice</th><td><span title="únik nebezpečných látek"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/unik-nebezpecnych-latek.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Mutějovice<br>okres Rakovník</td><td align="center">I.</td><td>7. října 2026, 17:35</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>záchrana osob a zvířat - uzavřené prostory, výtah - Rakovník</th><td><span title="záchrana osob a zvířat"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/zachrana-osob-a-zvirat.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Rakovník</td><td align="center">I.</td><td>7. října 2026, 17:20</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>záchrana osob a zvířat - uzavřené prostory, výtah - Lužná</th><td><span title="záchrana osob a zvířat"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/zachrana-osob-a-zvirat.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Lužná<br>okres Rakovník</td><td align="center">I.</td><td>7. října 2026, 09:25</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>dopravní nehoda - uvolnění komunikace, odtažení - Lužná</th><td><span title="dopravní nehoda"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/dopravni-nehoda.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Lužná<br>okres Rakovník</td><td align="center">I.</td><td>7. října 2026, 08:10</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>dopravní nehoda - se zraněním - Řevničov</th><td><span title="dopravní nehoda"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/dopravni-nehoda.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Řevničov<br>okres Rakovník</td><td align="center">I.</td><td>7. října 2026, 08:00</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>požár - odpad, ostatní - Lubná</th><td><span title="požár"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/pozar.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Lubná<br>okres Rakovník</td><td align="center">I.</td><td>6. října 2026, 20:35</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>záchrana osob a zvířat - uzavřené prostory, výtah - Řevničov</th><td><span title="záchrana osob a zvířat"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/zachrana-osob-a-zvirat.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Řevničov<br>okres Rakovník</td><td align="center">I.</td><td>6. října 2026, 10:45</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>dopravní nehoda - úklid vozovky - Lubná</th><td><span title="dopravní nehoda"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/dopravni-nehoda.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Lubná<br>okres Rakovník</td><td align="center">I.</td><td>6. října 2026, 10:30</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>dopravní nehoda - uvolnění komunikace, odtažení - Rakovník</th><td><span title="dopravní nehoda"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/dopravni-nehoda.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Rakovník</td><td align="center">I.</td><td>6. října 2026, 07:30</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>únik nebezpečných látek - na komunikaci ropa - Rakovník</th><td><span title="únik nebezpečných látek"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/unik-nebezpecnych-latek.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Rakovník</td><td align="center">I.</td><td>5. října 2026, 19:35</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>požár - polní porost, tráva - Řevničov</th><td><span title="požár"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/pozar.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Řevničov<br>okres Rakovník</td><td align="center">I.</td><td>5. října 2026, 19:30</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>technická pomoc - uzavření tekoucí vody - Nové Strašecí</th><td><span title="technická pomoc"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/technicka-pomoc.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Nové Strašecí<br>okres Rakovník</td><td align="center">I.</td><td>4. října 2026, 01:20</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>technická pomoc - monitoring - Lužná</th><td><span title="technická pomoc"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/technicka-pomoc.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Lužná<br>okres Rakovník</td><td align="center">I.</td><td>3. října 2026, 16:30</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>dopravní nehoda - uvolnění komunikace, odtažení - Smilovice</th><td><span title="dopravní nehoda"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/dopravni-nehoda.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Smilovice<br>okres Rakovník</td><td align="center">I.</td><td>3. října 2026, 15:40</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>požár - lesní porost - Mšecké Žehrovice</th><td><span title="požár"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/pozar.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Mšecké Žehrovice<br>okres Rakovník</td><td align="center">I.</td><td>3. října 2026, 14:10</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row1">
+      
+      <th>dopravní nehoda - se zraněním - Kalivody</th><td><span title="dopravní nehoda"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/dopravni-nehoda.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Kalivody<br>okres Rakovník</td><td align="center">I.</td><td>2. října 2026, 22:20</td></tr>
+  
+
+  
+      
+         
+	 
+          <tr class="row2">
+      
+      <th>požár - odpad, ostatní - Milostín</th><td><span title="požár"><img class="model_icon_img svg_icon_img" style="padding-left: 0.0px; padding-right: 0.0px;" src="/media/svg_icons/hzs/pozar.svg" width="30" height="30" role="none"></span></td><td>ukončená <img style="margin-top: -2px;" src="/static/operativa/img/bullet_black.png" /></td><td>Milostín<br>okres Rakovník</td><td align="center">I.</td><td>2. října 2026, 17:25</td></tr>
+  
+
+
+</tbody>
+</table>
+</div>
+
+
+          
+	  </div>
+          
+      
+      
+<p class="paginator">
+
+
+
+
+<span id="paginator_result_count">Nalezeno záznamů: 26 </span>
+
+
+
+
+
+</p>
+
+     
+     
+      </div>
+     
+    </div>
+     
+  </div>
+
+  <script>
+    $(document).ready(function() {
+        $('#changelist').on('click', 'input.page_selector_button', function(e) {
+                var page = $('.page_selector').val(); 
+		if (!page)
+			return false;
+		try {
+			page = parseInt(page);
+			if (isNaN(page) || page < 1)
+				return false;
+		} catch(err) {
+			return false;
+		}
+		page = page - 1;
+                var a = $('a.paginator_template');
+		href = a.attr('href').replace('__TMP__', page);
+		a.attr('href', href);
+                e.preventDefault();
+		location.href = href;
+		return false;
+        });
+    });
+  </script>
+
+ 
+
+      
+  
+
+      <br class="clear"/>
+    </div> 
+  
+  
+
+
+
+  
+    
+      <script src="/static/admin/js/admin/jquery.ba-resize.js?v=000bca735" defer></script>
+      <script src="/static/admin/js/admin/FooterPositioningJQ.js?v=000bca735" defer></script>
+      <div id="footer" style="visibility:hidden">
+        <div id="footer-wrapper">
+          
+            
+          
+          
+            
+          
+          
+  
+    
+<div class="container">
+  <div class="row g-4">
+    <div class="footer_main col-12">
+      <div class="d-flex flex-wrap justify-content-evenly align-items-start">
+        <div class="flex-grow-1 d-none d-sm-block"></div>
+        <div id="footer_main_col_headquarters" class="footer_main_col text-start">
+          <h2 class="footer_main_col_title">Sídlo</h2>
+          <ul class="footer_main_col_ul text-start">
+            <li>Středočeský kraj</li>
+            <li>Zborovská 11</li>
+            <li>150 00 Praha 5</li>
+            <li>IČO: <b>70891095</b></li>
+            <li>DIČ: <b>CZ70891095</b></li>
+          </ul>
+        </div>
+        <div class="flex-grow-1 d-none d-sm-block"></div>
+        <div id="footer_main_col_contacts" class="footer_main_col text-start">
+          <h2 class="footer_main_col_title">Kontaktní údaje</h2>
+          <ul class="footer_main_col_ul text-start">
+            <li>Tel: <b><a class="footer_main_col_ul_link" href="tel:+420257280111">+420 257 280 111</a></b></li>
+            <li>Fax: <b><a class="footer_main_col_ul_link" href="tel:+420257280203">+420 257 280 203</a></b></li>
+            <li>Email: <a class="footer_main_col_ul_link email" href="mailto:podatelna@kr-s.cz">podatelna@kr-s.cz</a></li>
+            <li>Datová schránka: <b>keebyyf</b></li>
+          </ul>
+        </div>
+        <div class="flex-grow-1 d-none d-sm-block"></div>
+      </div>
+    </div>
+    <hr id="footer_main_bottom_delimiter" class="col-12">
+    <div class="footer_bottom col-12">
+      <div class="row g-0 align-items-center">
+        <div id="copyright" class="footer_bottom_col col-12 text-center">2025 © Středočeský kraj • Informace jsou poskytovány v&nbsp;souladu se zákonem č.&nbsp;106/1999 Sb., o&nbsp;svobodném přístupu k&nbsp;informacím.</div>
+        <div class="footer_bottom_col col-12 text-center">
+          <a class="footer_bottom_col_cookies_privacy_link" href="https://portal.gov.cz/tiraz/osobni-udaje-a-cookies">Zpracování kontaktních údajů a&nbsp;cookies</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+        </div>
+      </div>
+    
+  
+ </div> 
+ </div> 
+</div>
+
+  <script>
+     $(document).ready(function($) {
+        // move bottom-bar with breadcrumbs before main div
+        $('div#header div#bottom-bar').insertBefore($('div#main.main'));
+     });
+  </script>
+
+</body>
+</html>
